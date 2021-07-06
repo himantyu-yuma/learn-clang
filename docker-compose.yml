@@ -4,7 +4,7 @@ services:
         image: gcc:latest
         restart: always
         volumes:
-            - ./src:/app/timetable
+            - ./src:/app/src
         working_dir: /src/cpp
         stdin_open: true
-        tty: true 
+        tty: true

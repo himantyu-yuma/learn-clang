@@ -1,0 +1,13 @@
+{
+    "name": "clang-learn",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "clang-learn",
+    "workspaceFolder": "/app/src/",
+    "settings": {
+        "editor.tabSize": 4
+    },
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "ms-vscode.cpptools"
+    ]
+}
