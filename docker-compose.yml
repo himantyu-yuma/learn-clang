@@ -1,0 +1,10 @@
+version: '3'
+services:
+    clang-learn:
+        image: gcc:latest
+        restart: always
+        volumes:
+            - ./src:/app/timetable
+        working_dir: /src/cpp
+        stdin_open: true
+        tty: true 
